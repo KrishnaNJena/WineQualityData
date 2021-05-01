@@ -44,3 +44,8 @@ Check difference in metrics:
 ```bash
 dvc metrics diff
 ```
+
+Display Metrics
+```bash
+dvc metrics show
+```
