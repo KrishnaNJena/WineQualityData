@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: D:\DSP\Deep_Learning\Projects\mlops\Wine_Quality
-cmd: 'c:\users\krishna\anaconda3\envs\wineqnew\python.exe' setup.py sdist --formats=zip --dist-dir 'D:\DSP\Deep_Learning\Projects\mlops\Wine_Quality\.tox\dist'
+cmd: 'c:\users\krishna\anaconda3\envs\wineqnew\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
 running sdist
 running egg_info
 writing src.egg-info\PKG-INFO
@@ -29,8 +29,7 @@ copying src.egg-info\SOURCES.txt -> src-0.0.1\src.egg-info
 copying src.egg-info\dependency_links.txt -> src-0.0.1\src.egg-info
 copying src.egg-info\top_level.txt -> src-0.0.1\src.egg-info
 Writing src-0.0.1\setup.cfg
-creating D:\DSP\Deep_Learning\Projects\mlops\Wine_Quality\.tox\dist
-creating 'D:\DSP\Deep_Learning\Projects\mlops\Wine_Quality\.tox\dist\src-0.0.1.zip' and adding 'src-0.0.1' to it
+creating '.tox\dist\src-0.0.1.zip' and adding 'src-0.0.1' to it
 adding 'src-0.0.1'
 adding 'src-0.0.1\src'
 adding 'src-0.0.1\src.egg-info'
