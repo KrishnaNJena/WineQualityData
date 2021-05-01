@@ -1,32 +1,36 @@
-Create Environment
+create env 
 
+```bash
+conda create -n wineq python=3.7 -y
+```
 
-'''bash
-conda create -n wineeqnew python=3.7 -y
-'''
+activate env
+```bash
+conda activate wineq
+```
 
+created a req file
 
-
-Activate
-'''bash
-activate wineeqnew
-'''
-
-
-Create new requirements and install
-'''bash
+install the req
+```bash
 pip install -r requirements.txt
-'''
+```
+download the data from 
 
+https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sharing
 
-Download Data WineQuality Dataset
-
+```bash
 git init
-
-dvc init
-
-dvc add data_given/WineQality.csv
-
+```
+```bash
+dvc init 
+```
+```bash
+dvc add data_given/winequality.csv
+```
+```bash
 git add .
-
-git commit -m "first Commit"
+```
+```bash
+git commit -m "first commit"
+```
