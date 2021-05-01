@@ -49,3 +49,28 @@ Display Metrics
 ```bash
 dvc metrics show
 ```
+
+tox command:
+```bash
+tox
+```
+
+For Rebuilding:
+```bash
+tox -r 
+```
+
+pytet command:
+```bash
+pytest -v
+```
+
+setup commands
+```bash
+pip install -e .
+```
+
+Build your own commands
+```bash
+pip setup.py sdist bdist wheel
+```
