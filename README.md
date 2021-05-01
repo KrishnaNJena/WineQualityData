@@ -34,3 +34,13 @@ git add .
 ```bash
 git commit -m "first commit"
 ```
+
+for stages in Pipeline :
+```bash
+dvc repo
+```
+
+Check difference in metrics:
+```bash
+dvc metrics diff
+```
