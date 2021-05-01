@@ -74,3 +74,14 @@ Build your own commands
 ```bash
 pip setup.py sdist bdist wheel
 ```
+create an artifcats folder
+
+``` 
+MLFLOW Server Command:
+
+````
+mlflow server \
+  --backend-store-uri sqlite:///mlflow.db
+  --default-artifact-root ./artifacts
+  --host 0.0.0.0 -p 1234
+```
